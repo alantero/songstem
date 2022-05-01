@@ -25,8 +25,8 @@ The available options are:
 * ```-i, --input-dir```. The name of the directory where the songs are found. This is a mandatory argument.
 * ```-f, --format```. The songs format (default: mp3). This is a mandatory argument.
 * ```-s, --stem```. The stem that is going to be isolated (options: drums, bass, vocals, other). Default is value is other.
-* ```-j```. Allow to specify a number of parallel jobs (e.g. demucs -j 2 myfile.mp3). This will multiply by the same amount the RAM used so be careful! Default value is 6 (This value depends on your computer number of cores)
-* ```-id```. An identifier of the songs. For all the files in the directory use "\*.". This can be useful to select individual songs (eg: "\*Tears\*.").
+* ```-j```. Allow to specify a number of parallel jobs (e.g. demucs -j 2 myfile.mp3). This will multiply by the same amount the RAM used so be careful! Default value is 6 (*This value depends on your computer number of cores*)
+* ```-id```. An identifier of the songs. For all the files in the directory use "\*.". This can be useful to select individual songs (*e.g. "\*Tears\*."*).
 
 An example of how to run songstem is
 
