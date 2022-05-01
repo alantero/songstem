@@ -5,13 +5,14 @@ It separates the drums, bass or vocals from the given songs. It is based on demu
 
 
 
-To install all the dependencies just run:
+To install demucs just run:
 
 ```
-pip install -r requirements.txt
+python3 -m pip install -U demucs
+
 ```
 
-The next thing is to add the executable to the PATH. In UNIX:
+The next thing is to add the songstem``` executable to the PATH. In UNIX:
 
 ```
 export PATH=${PATH}":${HOME}/your/repositories/path/songstem/bin"
