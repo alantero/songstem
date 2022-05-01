@@ -1,7 +1,7 @@
 # songstem
 Creates stems for an album or list of songs.
 
-It separates the drums/bass or vocals from the given songs. It is based on demucs at: https://github.com/facebookresearch/demucs/blob/main/README.md.
+It separates the drums, bass or vocals from the given songs. It is based on demucs at: https://github.com/facebookresearch/demucs/blob/main/README.md.
 
 
 
