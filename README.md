@@ -9,7 +9,6 @@ To install demucs just run:
 
 ```
 python3 -m pip install -U demucs
-
 ```
 
 The next thing is to add the songstem``` executable to the PATH. In UNIX:
