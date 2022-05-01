@@ -1,0 +1,2 @@
+# please make sure you have already a pytorch install that is cuda enabled!
+demucs==3.0.4
