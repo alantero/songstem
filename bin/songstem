@@ -6,10 +6,13 @@ import shutil
 
 def album2BackTrack(files_dir,file_id, **kwargs):
 
+    files_dir = os.path.abspath(os.getcwd()) + "/" + files_dir
+    print(files_dir)
     ### Optional arguments
     stems = kwargs["stems"] if "stems" in kwargs else other
     j = kwargs["j"] if "j" in kwargs else 2
     identifier = kwargs["identifier"] if "identifier" in kwargs else "*."
+
 
     ### List of all the files
     listOfFiles = sorted(glob.glob(files_dir+identifier+file_id))
