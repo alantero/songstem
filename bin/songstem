@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+# =============================================================================
+# Created By  : Agustin Lantero
+# Created Date: Sun May 1 21:49:00 PDT 2022
+# =============================================================================
+
+
 import os
 import glob
 import shutil
@@ -103,5 +109,3 @@ if __name__ == "__main__":
         args.input = args.input + "/"
 
     album2BackTrack(args.input, args.format, stems=args.stem, j=args.j, identifier=args.id)
-    #album2BackTrack("Fever/", "mp3")
-
