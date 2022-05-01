@@ -15,3 +15,6 @@ The next thing is to add the executable to the PATH. In UNIX:
 
 ```
 export PATH=${PATH}":${HOME}/your/repositories/path/songstem/bin"
+```
+
+To permently add to the PATH include the line in your ```.bashrc``` or ```.zprofile```.
